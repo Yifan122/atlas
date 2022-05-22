@@ -59,6 +59,8 @@
 
     <inceptionYear>2015</inceptionYear>
 
+
+
     <mailingLists>
         <mailingList>
             <name>atlas-dev</name>
@@ -833,6 +835,12 @@
             <id>typesafe</id>
             <name>Typesafe Repository</name>
             <url>http://repo.typesafe.com/typesafe/releases/</url>
+        </repository>
+        <repository>
+            <id>oracleReleases</id>
+            <name>Oracle Released Java Packages</name>
+            <url>http://download.oracle.com/maven</url>
+            <layout>default</layout>
         </repository>
     </repositories>
 
